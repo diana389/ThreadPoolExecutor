@@ -1,0 +1,16 @@
+500
+1
+add_tasks 2 1000 3
+add_tasks 3 500 3
+print waiting
+run 500
+print finished
+print running
+run 250
+print running
+get_task 1
+get_thread 1
+run 400
+print running
+print finished
+finish
